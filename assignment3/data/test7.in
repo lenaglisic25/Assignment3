@@ -1,9 +1,0 @@
-cat > data/test7.in <<'EOF'
-4
-a 5
-b 1
-c 4
-d 2
-aaaabbbbccccddddaaaabbbbc
-dcbaadcbaadcbaadcbaadcbaa
-EOF

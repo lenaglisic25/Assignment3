@@ -1,4 +1,3 @@
-cat > src/plot_runtimes.py <<'PY'
 import csv
 import matplotlib.pyplot as plt
 
@@ -26,4 +25,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-PY

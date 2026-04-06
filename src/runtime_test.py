@@ -1,4 +1,3 @@
-cat > src/runtime_test.py <<'PY'
 import sys
 import time
 import csv
@@ -51,4 +50,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-PY
