@@ -1,0 +1,9 @@
+cat > data/test5.in <<'EOF'
+4
+m 7
+n 2
+o 5
+p 1
+mnopmnopmnopmnopmnopmnopm
+ponmponmponmponmponmponmp
+EOF

@@ -1,0 +1,9 @@
+cat > data/test1.in <<'EOF'
+4
+a 1
+b 2
+c 3
+d 4
+abcdabcdabcdabcdabcdabcda
+dcbadcbadcbadcbadcbadcbad
+EOF
