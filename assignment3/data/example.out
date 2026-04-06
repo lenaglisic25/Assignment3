@@ -1,0 +1,4 @@
+cat > data/example.out <<'EOF'
+9
+cb
+EOF
