@@ -4,7 +4,6 @@
 - Name: Lena Glisic
 - UFID: 48575404
 
----
 
 ## Project Description
 This project solves the Highest Value Longest Common Sequence (HVLCS) problem using dynamic programming.
@@ -17,7 +16,6 @@ The program computes:
 1. The maximum total value of a common subsequence of A and B  
 2. One optimal subsequence that achieves that value  
 
----
 
 ## Repository Structure
 
@@ -35,7 +33,6 @@ ProgrammingAssignment3/
   - plot_runtimes.py
 - README.md
 
----
 
 ## Requirements
 - Python 3  
@@ -44,7 +41,6 @@ ProgrammingAssignment3/
 Install if needed:
 pip3 install matplotlib
 
----
 
 ## How to Run
 
@@ -55,7 +51,6 @@ Expected output:
 9
 cb
 
----
 
 Run runtime tests:
 python3 src/runtime_test.py data/test1.in data/test2.in data/test3.in data/test4.in data/test5.in data/test6.in data/test7.in data/test8.in data/test9.in data/test10.in
@@ -63,7 +58,6 @@ python3 src/runtime_test.py data/test1.in data/test2.in data/test3.in data/test4
 This generates:
 results/runtimes.csv
 
----
 
 Generate runtime graph:
 python3 src/plot_runtimes.py
@@ -71,7 +65,6 @@ python3 src/plot_runtimes.py
 This generates:
 results/runtime_graph.png
 
----
 
 ## Example Input and Output
 
@@ -87,14 +80,12 @@ example.out:
 9
 cb
 
----
 
 ## Assumptions
 - All characters in the strings appear in the alphabet list  
 - Values are nonnegative integers  
 - Any optimal subsequence is acceptable  
 
----
 
 # Question 1: Empirical Comparison
 
@@ -105,7 +96,6 @@ I measured runtime using runtime_test.py and generated a graph using plot_runtim
 Observation:
 All runtimes are very similar because all input sizes are similar. This matches expectations since the algorithm runs in O(n × m) time.
 
----
 
 # Question 2: Recurrence Equation
 
@@ -128,7 +118,6 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-1])
 Explanation:
 At each step, we either match characters (if equal) or skip one character from one of the strings. This guarantees the optimal solution.
 
----
 
 # Question 3: Algorithm and Big-Oh
 
