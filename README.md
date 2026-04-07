@@ -119,7 +119,7 @@ Explanation:
 At each step, we either match characters (if equal) or skip one character from one of the strings. This guarantees the optimal solution.
 
 
-# Question 3: Algorithm and Big-Oh
+# Question 3: Big-Oh
 
 Pseudocode:
 for i from 1 to n:
